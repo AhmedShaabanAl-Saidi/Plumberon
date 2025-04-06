@@ -19,6 +19,10 @@
     color: #0A4677;
 }
 
+.main-color-2{
+    color: #17224D;
+}
+
 
 .main-button{
     background: #F9BF0F;
@@ -67,3 +71,19 @@
     font-weight: 500;
 }
 
+/* Header */
+.header{
+    background: linear-gradient(rgba(35, 65, 110, 0.4), rgba(35, 65, 110, 0.4)), url('IMG/bg.jpg');
+    background-position: 100% 30%;
+    background-size: cover;
+}
+
+.header .form-control{
+    border: #EDF1FC solid 2px;
+    padding: 0.5rem 1rem;
+}
+
+.header .form-control:focus{
+    box-shadow: none;
+    border: #EDF1FC solid 2px;
+}
