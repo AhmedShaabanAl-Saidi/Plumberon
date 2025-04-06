@@ -51,6 +51,15 @@
     width: 85%;
 }
 
+.w-97{
+    width: 97%;
+}
+
+.my-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 /* Navbar */
 .social-icons a{
     color: #17224D;
@@ -76,6 +85,7 @@
     background: linear-gradient(rgba(35, 65, 110, 0.4), rgba(35, 65, 110, 0.4)), url('IMG/bg.jpg');
     background-position: 100% 30%;
     background-size: cover;
+    height: 120vh;
 }
 
 .header .form-control{
@@ -86,4 +96,10 @@
 .header .form-control:focus{
     box-shadow: none;
     border: #EDF1FC solid 2px;
+}
+
+/* about-us */
+.about-us img{
+    transition: translate box-shadow color .25s;
+    box-shadow: 20px 20px 0 #F9BF0F;
 }
