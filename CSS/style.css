@@ -64,6 +64,18 @@
     margin-bottom: 120px;
 }
 
+.py-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-us img,
+.why-choose-us img {
+    transition: translate box-shadow color .25s;
+    box-shadow: 20px 20px 0 #F9BF0F;
+    object-fit: cover;
+}
+
 /* Navbar */
 .social-icons a {
     color: #17224D;
@@ -101,12 +113,6 @@
 .header .form-control:focus {
     box-shadow: none;
     border: #EDF1FC solid 2px;
-}
-
-/* about-us */
-.about-us img {
-    transition: translate box-shadow color .25s;
-    box-shadow: 20px 20px 0 #F9BF0F;
 }
 
 /* work */
@@ -166,4 +172,28 @@
 
 .discover button {
     padding: .8125rem 2.0625rem;
+}
+
+/* services */
+.services .card img {
+    width: 15%;
+}
+
+.services .card p {
+    font-size: 14px;
+}
+
+.services .card,
+.why-choose-us .card {
+    transition: all .5s ease;
+}
+
+.services .card:hover,
+.why-choose-us .card:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+/* why-choose-us */
+.why-choose-us .card p {
+    font-size: 14px;
 }
