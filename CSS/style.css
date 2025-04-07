@@ -197,3 +197,9 @@
 .why-choose-us .card p {
     font-size: 14px;
 }
+
+/* contact-us */
+.contact-us{
+    background: linear-gradient(rgba(35, 65, 110, 0.4), rgba(35, 65, 110, 0.4)), url('IMG/video-bg.jpg');
+    background-size: cover;
+}
