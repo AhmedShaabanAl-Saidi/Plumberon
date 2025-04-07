@@ -19,6 +19,10 @@
     color: #F9BF0F;
 }
 
+.secondary-color-2 {
+    color: #D3E3FE;
+}
+
 .main-color {
     color: #0A4677;
 }
@@ -26,7 +30,6 @@
 .main-color-2 {
     color: #17224D;
 }
-
 
 .main-button {
     background: #F9BF0F;
@@ -57,6 +60,10 @@
 
 .w-97 {
     width: 97%;
+}
+
+.w-18 {
+    width: 18%;
 }
 
 .my-120 {
@@ -199,7 +206,12 @@
 }
 
 /* contact-us */
-.contact-us{
+.contact-us {
     background: linear-gradient(rgba(35, 65, 110, 0.4), rgba(35, 65, 110, 0.4)), url('IMG/video-bg.jpg');
     background-size: cover;
+}
+
+/* Testimonial */
+.Testimonial-img {
+    background: linear-gradient(to top, #fff 0%, #f1f1f1 100%);
 }
