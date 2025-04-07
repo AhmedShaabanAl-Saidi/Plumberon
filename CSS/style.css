@@ -215,3 +215,17 @@
 .Testimonial-img {
     background: linear-gradient(to top, #fff 0%, #f1f1f1 100%);
 }
+
+/* footer */
+.footer .social-icons a {
+    transition: background-color 0.5s ease;
+    color: #ffffff;
+}
+
+.footer .social-icons a:hover {
+    color: #F9BF0F;
+}
+
+.footer hr{
+    background-color: #1075B2;
+}
