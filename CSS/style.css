@@ -246,8 +246,6 @@ footer {
 }
 
 /* media */
-@media (max-width: 575.98px) {}
-
 @media (max-width: 767.98px) {
     .footer .footer-social {
         display: flex;
@@ -366,6 +364,11 @@ footer {
     .about-us span {
         font-size: .625rem !important;
         font-weight: 500;
+    }
+
+    .about-us-list span {
+        font-size: 14px !important;
+        font-weight: 400;
     }
 
     .about-us {
