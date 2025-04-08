@@ -155,8 +155,8 @@ span {
 }
 
 .play-icon {
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     animation: pulse 1s infinite;
     -webkit-animation: pulse 2s infinite;
 }
@@ -331,10 +331,6 @@ footer {
         margin-top: 5rem !important;
     }
 
-    .header {
-        height: auto;
-    }
-
     .navbar .container {
         display: flex;
         justify-content: center;
@@ -354,10 +350,94 @@ footer {
         display: block !important;
         padding: .625rem !important;
     }
+
+    .testimonial-feedback-img {
+        width: 18% !important;
+    }
 }
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
 
-@media (max-width: 1199.98px) {}
+    .header .header-form,
+    .header .header-content {
+        width: 100%;
+    }
 
-@media (max-width: 1399.98px) {}
+    .about-us span {
+        font-size: .625rem !important;
+        font-weight: 500;
+    }
+
+    .about-us {
+        margin-block: 2rem !important;
+    }
+
+    .services-cards {
+        gap: 1rem;
+    }
+
+    .why-choose-us-img {
+        margin-top: 2rem;
+    }
+
+    .contact-us h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact-us p {
+        font-size: .875rem;
+    }
+
+    .testimonial-feedback {
+        font-size: 10px;
+    }
+
+    .testimonial-feedback-img {
+        width: 30%;
+    }
+
+    .services h2 {
+        font-size: 1.6rem !important;
+    }
+
+    .my-120 {
+        margin-top: 3.125rem !important;
+        margin-bottom: 3.125rem !important;
+    }
+
+    .py-120 {
+        padding-top: 3.125rem !important;
+        padding-bottom: 3.125rem !important;
+    }
+}
+
+@media (max-width: 1399.98px) {
+    .header .header-form {
+        margin-top: 5rem !important;
+    }
+
+    .header {
+        height: auto;
+        padding: 1.25rem;
+    }
+
+    .about-us span {
+        font-size: .875rem;
+    }
+
+    .about-us {
+        padding: .625rem !important;
+    }
+
+    .discover .discover-info {
+        padding-block: 1rem !important;
+    }
+
+    .services h2 {
+        font-size: 2.5rem;
+    }
+
+    .why-choose-us .card p {
+        font-size: .75rem;
+    }
+}
