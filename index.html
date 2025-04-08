@@ -28,8 +28,10 @@
     <!-- Top Navbar -->
     <nav class="navbar secondary-bg-color-2 position-relative">
         <div class="container p-2 pb-5">
+
             <img src="CSS/IMG/logo.png" alt="logo">
-            <div>
+
+            <div class="navbar-brand">
                 <div class="social-icons d-inline me-5 fs-6">
                     <a href="https://www.facebook.com/?locale=ar_AR" target="_blank">
                         <i class="fa-brands fa-facebook-f"></i></a>
@@ -47,7 +49,7 @@
         <nav
             class="navbar navbar-expand-lg main-bg-color position-absolute w-85 top-100 start-50 translate-middle p-3 text-white mt-2 main-border">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler secondary-bg-color" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -84,14 +86,15 @@
                             </ul>
                         </li>
                     </ul>
-
+                </div>
+                <div class="navbar-info d-flex justify-content-center align-items-center">
                     <div
-                        class="d-flex justify-content-start align-items-center me-4 secondary-bg-color p-3 main-border">
-                        <i class="fa-solid fa-phone-volume main-color fs-4"></i>
+                        class="navbar-info-icon d-flex justify-content-start align-items-center me-4 secondary-bg-color p-3 main-border">
+                        <i class="navbar-info fa-solid fa-phone-volume main-color fs-4"></i>
                     </div>
                     <div>
-                        <span class="secondary-color d-flex justify-content-end">Emergency 24/7</span>
-                        <h5>+(62)21 2002-2012</h5>
+                        <span class="navbar-info secondary-color d-flex justify-content-end">Emergency 24/7</span>
+                        <h5 class="navbar-info">+(62)21 2002-2012</h5>
                     </div>
                 </div>
             </div>
@@ -102,7 +105,7 @@
     <header id="home" class="header d-flex justify-content-center align-items-center text-white">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 ps-5 py-5 mt-5">
+                <div class="col-md-6 ps-5 py-md-5 mt-5">
                     <h1 class="text-start display-2 fw-bold">
                         We are the <br> plumbing <br> experts.
                     </h1>
@@ -112,7 +115,7 @@
 
                     <button class="main-button mt-2 py-3 px-5 fw-semibold">Discover More</button>
                 </div>
-                <div class="col-md-6 px-5 mt-5 main-color-2">
+                <div class="header-form col-md-6 px-5 mt-5 main-color-2">
                     <div class="bg-white w-100 h-100 main-border p-5">
                         <form>
                             <h2>Get an Appointment</h2>
@@ -151,11 +154,11 @@
     <section id="about" class="about-us my-120 main-color-2">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 pe-5">
+                <div class="about-us-img col-md-6 pe-5">
                     <img src="CSS/IMG/about.jpg" alt="about" class="w-100 h-100 main-border">
                 </div>
                 <div class="col-md-6">
-                    <span class="secondary-color">About Us</span>
+                    <span class="about-us-header secondary-color">About Us</span>
                     <h2 class="text-start display-5 fw-bold my-3">
                         Professional Plumbing <br>
                         now in your Budget.
@@ -199,32 +202,32 @@
     <section class="work my-120 main-color-2 fw-bold">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 d-flex justify-content-center align-items-center gap-3">
-                    <i class="fa-solid fa-users display-4 secondary-color mb-3"></i>
+                <div class="work-icons col-md-3 col-6 d-flex justify-content-center align-items-center gap-3">
+                    <i class="icon-work fa-solid fa-users display-4 secondary-color mb-3"></i>
                     <div>
                         <h2 class="display-5 mb-0">8,714<sup><i class="fa-solid fa-plus secondary-color fs-6"></i></sup>
                         </h2>
                         <p class="ms-3 fw-medium">Happy Customers</p>
                     </div>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center gap-3">
-                    <i class="fa-solid fa-building display-4 secondary-color mb-3"></i>
+                <div class="work-icons col-md-3 col-6 d-flex justify-content-center align-items-center gap-3">
+                    <i class="icon-work fa-solid fa-building display-4 secondary-color mb-3"></i>
                     <div>
                         <h2 class="display-5 mb-0">1,211<sup><i class="fa-solid fa-plus secondary-color fs-6"></i></sup>
                         </h2>
                         <p class="ms-3 fw-medium">Provide Apartement</p>
                     </div>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center gap-3">
-                    <i class="fa-solid fa-building-columns display-4 secondary-color mb-3"></i>
+                <div class="work-icons col-md-3 col-6 d-flex justify-content-center align-items-center gap-3">
+                    <i class="icon-work fa-solid fa-building-columns display-4 secondary-color mb-3"></i>
                     <div>
                         <h2 class="display-5 mb-0">1,244<sup><i class="fa-solid fa-plus secondary-color fs-6"></i></sup>
                         </h2>
                         <p class="ms-5 fw-medium">Home Served</p>
                     </div>
                 </div>
-                <div class="col-md-3 d-flex justify-content-center align-items-center gap-3">
-                    <i class="fa-solid fa-wrench display-5 secondary-color mb-3"></i>
+                <div class="work-icons col-md-3 col-6 d-flex justify-content-center align-items-center gap-3">
+                    <i class="icon-work fa-solid fa-wrench display-5 secondary-color mb-3"></i>
                     <div>
                         <h2 class="display-5 mb-0">174<sup><i class="fa-solid fa-plus secondary-color fs-6"></i></sup>
                         </h2>
@@ -250,7 +253,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-5 d-flex flex-column justify-content-center align-items-start text-white">
+                <div
+                    class="discover-info col-md-5 d-flex flex-column justify-content-center align-items-start text-white">
                     <div class="inner-discover">
                         <h2 class="display-5 fw-bold">
                             Solving things
@@ -406,7 +410,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="why-choose-us-img col-md-6">
                     <img src="CSS/IMG/why.jpg" class="w-100 h-100 main-border" alt="why-us">
                 </div>
             </div>
@@ -528,7 +532,7 @@
 
             <hr>
 
-            <div class="d-flex justify-content-between align-items-center">
+            <div class="footer-social d-flex justify-content-between align-items-center">
                 <div class="social-icons">
                     <a href="https://www.facebook.com/?locale=ar_AR" target="_blank">
                         <i class="fa-brands fa-facebook-f"></i></a>

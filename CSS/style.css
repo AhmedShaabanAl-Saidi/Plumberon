@@ -197,7 +197,7 @@ span {
 }
 
 .services .card p {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .services .card,
@@ -212,7 +212,7 @@ span {
 
 /* why-choose-us */
 .why-choose-us .card p {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 /* contact-us */
@@ -244,3 +244,120 @@ footer {
 .footer hr {
     background-color: #1075B2;
 }
+
+/* media */
+@media (max-width: 575.98px) {}
+
+@media (max-width: 767.98px) {
+    .footer .footer-social {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .testimonial .row {
+        gap: 3rem;
+    }
+
+    .why-choose-us {
+        padding-block: 1rem;
+        padding-inline: 1rem;
+    }
+
+    .why-choose-us-img {
+        margin-block: 3rem;
+    }
+
+    .discover {
+        margin-block: 1rem !important;
+    }
+
+    .discover .inner-discover {
+        padding: 2rem;
+    }
+
+    .services {
+        margin-block: 1rem !important;
+        padding-block: 1rem !important;
+    }
+
+    .services .row {
+        gap: 1rem;
+    }
+
+    .work .icon-work {
+        display: none;
+    }
+
+    .work h2 {
+        font-size: 2rem;
+    }
+
+    .work p {
+        font-size: 1rem;
+        margin: 0 !important;
+    }
+
+    .work-icons {
+        padding: 1rem !important;
+    }
+
+    .work {
+        margin-block: 4rem !important;
+    }
+
+    .about-us {
+        margin-block: 2rem !important;
+    }
+
+    .about-us .row {
+        gap: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .about-us-img {
+        padding: .9375rem !important;
+    }
+
+    .header-form {
+        padding: 0rem !important;
+    }
+
+    .header-form .row {
+        row-gap: 1rem;
+    }
+
+    .header h1 {
+        margin-top: 5rem !important;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .navbar .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-info {
+        font-size: 14px;
+    }
+
+    .navbar-info-icon {
+        margin-right: .625rem !important;
+        display: block !important;
+        padding: .625rem !important;
+    }
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1399.98px) {}
