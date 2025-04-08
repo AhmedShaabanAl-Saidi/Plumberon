@@ -12,6 +12,13 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="CSS/all.min.css">
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- main style -->
     <link rel="stylesheet" href="CSS/style.css">
 </head>
@@ -23,11 +30,11 @@
         <div class="container p-2 pb-5">
             <img src="CSS/IMG/logo.png" alt="logo">
             <div>
-                <div class="social-icons d-inline me-5 fs-5">
+                <div class="social-icons d-inline me-5 fs-6">
                     <a href="https://www.facebook.com/?locale=ar_AR" target="_blank">
                         <i class="fa-brands fa-facebook-f"></i></a>
                     <a href="https://x.com/" target="_blank">
-                        <i class="fa-brands fa-twitter px-2"></i></a>
+                        <i class="fa-brands fa-twitter px-3"></i></a>
                     <a href="https://www.instagram.com/" target="_blank">
                         <i class="fa-brands fa-instagram"></i></a>
                 </div>
@@ -48,10 +55,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About us</a>
+                            <a class="nav-link" href="#about">About us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -64,7 +71,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact Us</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -92,7 +99,7 @@
     </nav>
 
     <!-- header -->
-    <header class="header d-flex justify-content-center align-items-center text-white">
+    <header id="home" class="header d-flex justify-content-center align-items-center text-white">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 ps-5 py-5 mt-5">
@@ -103,7 +110,7 @@
                     <p class="fs-4 fw-semibold">Congue nostra imperdiet condimentum nullam <br>
                         arcu dictumst dignissim nascetur</p>
 
-                    <button class="main-button mt-2 py-3 px-5 fw-bold">Discover More</button>
+                    <button class="main-button mt-2 py-3 px-5 fw-semibold">Discover More</button>
                 </div>
                 <div class="col-md-6 px-5 mt-5 main-color-2">
                     <div class="bg-white w-100 h-100 main-border p-5">
@@ -131,7 +138,7 @@
                             <textarea class="form-control rounded-0 secondary-bg-color-2 my-3" id="Textarea1" rows="4"
                                 placeholder="Message"></textarea>
 
-                            <button class="main-button mt-2 py-3 fw-bold w-100">Submit</button>
+                            <button class="main-button mt-2 fw-semibold w-100">Submit</button>
 
                         </form>
                     </div>
@@ -141,7 +148,7 @@
     </header>
 
     <!-- About Us -->
-    <section class="about-us my-120 main-color-2 fw-semibold">
+    <section id="about" class="about-us my-120 main-color-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 pe-5">
@@ -229,7 +236,7 @@
     </section>
 
     <!-- Discover -->
-    <section class="discover my-120 fw-semibold main-bg-color">
+    <section class="discover my-120 main-bg-color">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 position-relative">
@@ -257,7 +264,7 @@
                             maximus vehicula scelerisque ante libero.
                         </p>
 
-                        <button class="main-button mt-2 fw-bold">Discover More</button>
+                        <button class="main-button mt-2">Discover More</button>
                     </div>
                 </div>
             </div>
@@ -265,7 +272,7 @@
     </section>
 
     <!-- Services -->
-    <section class="services my-120 fw-semibold main-color-2">
+    <section id="services" class="services my-120 main-color-2">
         <div class="container">
             <p class="secondary-color">What we offer</p>
             <div class="row">
@@ -331,7 +338,7 @@
     </section>
 
     <!-- Why Choose Us -->
-    <section class="why-choose-us mt-5 fw-semibold secondary-bg-color-2 main-color-2 py-120">
+    <section class="why-choose-us mt-5 secondary-bg-color-2 main-color-2 py-120">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -339,7 +346,7 @@
                     <h2 class="display-5 fw-bold">Providing friendly
                         <br> plumbing services
                     </h2>
-                    <p class="py-3 fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
+                    <p class="py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
                         luctus
                         <br> nec ullamcorper mattis, pulvinar dapibus leo.
                     </p>
@@ -350,7 +357,7 @@
                                 <i class="fa-solid fa-ranking-star fs-1 ms-4"></i>
                                 <div class="card-body">
                                     <h5 class="card-title py-1">Trusted Company</h5>
-                                    <p class="card-text fw-normal fw-light">Sodales molestie bibendum
+                                    <p class="card-text">Sodales molestie bibendum
                                         <br> faucibus amet lobortis nunc
                                         <br> nullam dignissim suscipit
                                         <br> dictum fermentum
@@ -363,7 +370,7 @@
                                 <i class="fa-solid fa-wrench fs-1 ms-4"></i>
                                 <div class="card-body">
                                     <h5 class="card-title py-1">Experienced</h5>
-                                    <p class="card-text fw-normal fw-light">Sodales molestie bibendum
+                                    <p class="card-text">Sodales molestie bibendum
                                         <br> faucibus amet lobortis nunc
                                         <br> nullam dignissim suscipit
                                         <br> dictum fermentum
@@ -376,7 +383,7 @@
                                 <i class="fa-solid fa-certificate fs-1 ms-4"></i>
                                 <div class="card-body">
                                     <h5 class="card-title py-1">Certified Worker</h5>
-                                    <p class="card-text fw-normal fw-light">Sodales molestie bibendum
+                                    <p class="card-text">Sodales molestie bibendum
                                         <br> faucibus amet lobortis nunc
                                         <br> nullam dignissim suscipit
                                         <br> dictum fermentum
@@ -389,7 +396,7 @@
                                 <i class="fa-solid fa-headset fs-1 ms-4"></i>
                                 <div class="card-body">
                                     <h5 class="card-title py-1">24/7 Support</h5>
-                                    <p class="card-text fw-normal fw-light">Sodales molestie bibendum
+                                    <p class="card-text">Sodales molestie bibendum
                                         <br> faucibus amet lobortis nunc
                                         <br> nullam dignissim suscipit
                                         <br> dictum fermentum
@@ -407,8 +414,8 @@
     </section>
 
     <!-- Contact Us -->
-    <section class="contact-us py-120 text-white text-center">
-        <div class="container">
+    <section id="contact" class="contact-us py-120 text-white text-center">
+        <div class="container py-3">
             <h2 class="display-5 fw-bold">Creating happy customers from
                 <br> our services
             </h2>
@@ -418,22 +425,22 @@
                 <br> pulvinar dapibus leo.
             </p>
 
-            <button class="main-button mt-2 fw-bold">Contact Us</button>
+            <button class="main-button mt-2 fw-semibold">Contact Us</button>
         </div>
     </section>
 
     <!-- Testimonial -->
-    <section class="testimonial my-120 text-center main-color-2 fw-semibold">
+    <section id="testimonial" class="testimonial my-120 text-center main-color-2">
         <div class="container">
             <p class="secondary-color">Testimonial</p>
             <h2 class="display-5 fw-bold">What They Say</h2>
             <p class="fw-normal mb-5 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-            <div class="row">
+            <div class="row pt-4">
                 <div class="col-md-4">
                     <div class="mb-5">
                         <i class="fa-solid fa-quote-left display-3 secondary-color-2"></i>
-                        <p class="py-3 fw-semibold">Ut quisque ullamcorper tortor potenti sed
+                        <p class="py-3">Ut quisque ullamcorper tortor potenti sed
                             <br> bibendum ante torquent hac nam. Faucibus
                             <br> pede porttitor hendrerit sodales pretium. Ex
                             <br> bibendum lectus posuere aenean cras.
@@ -452,14 +459,14 @@
                             class="w-18 rounded-circle position-absolute top-0 start-50 translate-middle">
 
                         <div class="Testimonial-img">
-                            <p class="pt-5">David Ricks</p>
+                            <p class="pt-5 fw-semibold">David Ricks</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mb-5">
                         <i class="fa-solid fa-quote-left display-3 secondary-color-2"></i>
-                        <p class="py-3 fw-semibold">Ut quisque ullamcorper tortor potenti sed
+                        <p class="py-3">Ut quisque ullamcorper tortor potenti sed
                             <br> bibendum ante torquent hac nam. Faucibus
                             <br> pede porttitor hendrerit sodales pretium. Ex
                             <br> bibendum lectus posuere aenean cras.
@@ -478,14 +485,14 @@
                             class="w-18 rounded-circle position-absolute top-0 start-50 translate-middle">
 
                         <div class="Testimonial-img">
-                            <p class="pt-5">David Ricks</p>
+                            <p class="pt-5 fw-semibold">David Ricks</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="mb-5">
                         <i class="fa-solid fa-quote-left display-3 secondary-color-2"></i>
-                        <p class="py-3 fw-semibold">Ut quisque ullamcorper tortor potenti sed
+                        <p class="py-3">Ut quisque ullamcorper tortor potenti sed
                             <br> bibendum ante torquent hac nam. Faucibus
                             <br> pede porttitor hendrerit sodales pretium. Ex
                             <br> bibendum lectus posuere aenean cras.
@@ -504,7 +511,7 @@
                             class="w-18 rounded-circle position-absolute top-0 start-50 translate-middle">
 
                         <div class="Testimonial-img">
-                            <p class="pt-5">David Ricks</p>
+                            <p class="pt-5 fw-semibold">David Ricks</p>
                         </div>
                     </div>
                 </div>
@@ -519,7 +526,7 @@
                 <img src="CSS/IMG/logo2.png" alt="logo">
             </div>
 
-            <hr class="">
+            <hr>
 
             <div class="d-flex justify-content-between align-items-center">
                 <div class="social-icons">

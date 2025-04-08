@@ -1,7 +1,12 @@
 /* General */
-/* body {
-    font-family: ;
-} */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+p,
+span {
+    font-family: "Heebo", sans-serif;
+}
 
 .main-bg-color {
     background: #0A4677;
@@ -102,6 +107,11 @@
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #ffffff;
     font-weight: 500;
+}
+
+.navbar button {
+    font-size: 14px;
+    font-weight: 600;
 }
 
 /* Header */
@@ -217,6 +227,11 @@
 }
 
 /* footer */
+footer {
+    font-size: .8125rem;
+    font-weight: 300;
+}
+
 .footer .social-icons a {
     transition: background-color 0.5s ease;
     color: #ffffff;
@@ -226,6 +241,6 @@
     color: #F9BF0F;
 }
 
-.footer hr{
+.footer hr {
     background-color: #1075B2;
 }
